@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 
-function ShopItemClass({item}) {
-    console.log(item)
+export default function ShopItemClass({ item }) {
     return(
         <>
             <div className="main-content">
@@ -25,5 +24,3 @@ function ShopItemClass({item}) {
 ShopItemClass.propTypes = {
     item: PropTypes.object
 }
-
-export default ShopItemClass;
